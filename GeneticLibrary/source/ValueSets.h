@@ -431,9 +431,10 @@ namespace Chromosome
 					{
 						_values.erase( it1 );
 						_invertedValues.erase( it2 );
-						return;
+						return true;
 					}
 				}
+				return false;
 			}
 
 			/// <summary>Remove method removes value and its counterpart from the set. It removes value by its position in the set.
@@ -453,9 +454,10 @@ namespace Chromosome
 						_values.erase( it1 );
 						_invertedValues.erase( it2 );
 
-						return;
+						return true;
 					}
 				}
+				return false;
 			}
 
 			/// <summary><c>GetValue</c> method returns original value at given position.

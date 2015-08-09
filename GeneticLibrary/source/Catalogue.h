@@ -34,6 +34,7 @@
 #define __GA_CATALOGUE_H__
 
 #include "Platform.h"
+#include <cstdlib>
 
 #if defined(GAL_STL_EXT_MSVC)
 

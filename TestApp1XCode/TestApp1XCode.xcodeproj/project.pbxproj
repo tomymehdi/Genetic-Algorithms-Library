@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7F231431B77244E00DB22A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7F231421B77244E00DB22A0 /* main.cpp */; };
+		F7F2314B1B77247200DB22A0 /* libGeneticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F2314A1B77247200DB22A0 /* libGeneticLibrary.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7F2313D1B77244E00DB22A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F77AF9E51B7726C600688BE8 /* Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Algorithm.h; path = includes/Algorithm.h; sourceTree = "<group>"; };
+		F77AF9E61B7726C600688BE8 /* AlgorithmOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlgorithmOperations.h; path = includes/AlgorithmOperations.h; sourceTree = "<group>"; };
+		F77AF9E71B7726C600688BE8 /* AlgorithmState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlgorithmState.h; path = includes/AlgorithmState.h; sourceTree = "<group>"; };
+		F77AF9E81B7726C600688BE8 /* BinaryChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryChromosome.h; path = includes/BinaryChromosome.h; sourceTree = "<group>"; };
+		F77AF9E91B7726C600688BE8 /* CouplingOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CouplingOperations.h; path = includes/CouplingOperations.h; sourceTree = "<group>"; };
+		F77AF9EA1B7726C600688BE8 /* CrossoverOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrossoverOperations.h; path = includes/CrossoverOperations.h; sourceTree = "<group>"; };
+		F77AF9EB1B7726C600688BE8 /* DomainChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DomainChromosome.h; path = includes/DomainChromosome.h; sourceTree = "<group>"; };
+		F77AF9EC1B7726C600688BE8 /* FitnessComparators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FitnessComparators.h; path = includes/FitnessComparators.h; sourceTree = "<group>"; };
+		F77AF9ED1B7726C600688BE8 /* FPEqual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FPEqual.h; path = includes/FPEqual.h; sourceTree = "<group>"; };
+		F77AF9EE1B7726C600688BE8 /* GlobalRandomGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlobalRandomGenerator.h; path = includes/GlobalRandomGenerator.h; sourceTree = "<group>"; };
+		F77AF9EF1B7726C600688BE8 /* IncrementalAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IncrementalAlgorithm.h; path = includes/IncrementalAlgorithm.h; sourceTree = "<group>"; };
+		F77AF9F01B7726C600688BE8 /* MultithreadingAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultithreadingAlgorithm.h; path = includes/MultithreadingAlgorithm.h; sourceTree = "<group>"; };
+		F77AF9F11B7726C600688BE8 /* MultiValueChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiValueChromosome.h; path = includes/MultiValueChromosome.h; sourceTree = "<group>"; };
+		F77AF9F21B7726C600688BE8 /* MutationOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MutationOperations.h; path = includes/MutationOperations.h; sourceTree = "<group>"; };
+		F77AF9F31B7726C600688BE8 /* Observing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Observing.h; path = includes/Observing.h; sourceTree = "<group>"; };
+		F77AF9F41B7726C600688BE8 /* Population.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Population.h; path = includes/Population.h; sourceTree = "<group>"; };
+		F77AF9F51B7726C600688BE8 /* PopulationOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PopulationOperations.h; path = includes/PopulationOperations.h; sourceTree = "<group>"; };
+		F77AF9F61B7726C600688BE8 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Random.h; path = includes/Random.h; sourceTree = "<group>"; };
+		F77AF9F71B7726C600688BE8 /* ReplacementOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReplacementOperations.h; path = includes/ReplacementOperations.h; sourceTree = "<group>"; };
+		F77AF9F81B7726C600688BE8 /* RepresentationInterfaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RepresentationInterfaces.h; path = includes/RepresentationInterfaces.h; sourceTree = "<group>"; };
+		F77AF9F91B7726C600688BE8 /* ScalingOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScalingOperations.h; path = includes/ScalingOperations.h; sourceTree = "<group>"; };
+		F77AF9FA1B7726C600688BE8 /* SelectionOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SelectionOperations.h; path = includes/SelectionOperations.h; sourceTree = "<group>"; };
+		F77AF9FB1B7726C600688BE8 /* SimpleAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleAlgorithm.h; path = includes/SimpleAlgorithm.h; sourceTree = "<group>"; };
+		F77AF9FC1B7726C600688BE8 /* SingleValueChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SingleValueChromosome.h; path = includes/SingleValueChromosome.h; sourceTree = "<group>"; };
+		F77AF9FD1B7726C600688BE8 /* SmartPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SmartPtr.h; path = includes/SmartPtr.h; sourceTree = "<group>"; };
+		F77AF9FE1B7726C600688BE8 /* SortedGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SortedGroup.h; path = includes/SortedGroup.h; sourceTree = "<group>"; };
+		F77AF9FF1B7726C600688BE8 /* SortedGroupType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SortedGroupType.h; path = includes/SortedGroupType.h; sourceTree = "<group>"; };
+		F77AFA001B7726C600688BE8 /* Statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Statistics.h; path = includes/Statistics.h; sourceTree = "<group>"; };
+		F77AFA011B7726C600688BE8 /* StopCriterias.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StopCriterias.h; path = includes/StopCriterias.h; sourceTree = "<group>"; };
+		F77AFA021B7726C600688BE8 /* ValueSets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ValueSets.h; path = includes/ValueSets.h; sourceTree = "<group>"; };
+		F77AFA041B77270A00688BE8 /* Initialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Initialization.h; path = includes/Initialization.h; sourceTree = "<group>"; };
+		F77AFA051B77273800688BE8 /* Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Algorithm.h; path = includes/Algorithm.h; sourceTree = "<group>"; };
+		F77AFA061B77273800688BE8 /* AlgorithmOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlgorithmOperations.h; path = includes/AlgorithmOperations.h; sourceTree = "<group>"; };
+		F77AFA071B77273800688BE8 /* AlgorithmState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AlgorithmState.h; path = includes/AlgorithmState.h; sourceTree = "<group>"; };
+		F77AFA081B77273800688BE8 /* BinaryChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BinaryChromosome.h; path = includes/BinaryChromosome.h; sourceTree = "<group>"; };
+		F77AFA091B77273800688BE8 /* Catalogue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Catalogue.h; path = includes/Catalogue.h; sourceTree = "<group>"; };
+		F77AFA0A1B77273800688BE8 /* Chromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Chromosome.h; path = includes/Chromosome.h; sourceTree = "<group>"; };
+		F77AFA0B1B77273800688BE8 /* ChromosomeOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChromosomeOperations.h; path = includes/ChromosomeOperations.h; sourceTree = "<group>"; };
+		F77AFA0C1B77273800688BE8 /* CouplingOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CouplingOperations.h; path = includes/CouplingOperations.h; sourceTree = "<group>"; };
+		F77AFA0D1B77273800688BE8 /* CrossoverOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CrossoverOperations.h; path = includes/CrossoverOperations.h; sourceTree = "<group>"; };
+		F77AFA0E1B77273800688BE8 /* DomainChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DomainChromosome.h; path = includes/DomainChromosome.h; sourceTree = "<group>"; };
+		F77AFA0F1B77273800688BE8 /* FitnessComparators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FitnessComparators.h; path = includes/FitnessComparators.h; sourceTree = "<group>"; };
+		F77AFA101B77273800688BE8 /* FPEqual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FPEqual.h; path = includes/FPEqual.h; sourceTree = "<group>"; };
+		F77AFA111B77273800688BE8 /* GlobalRandomGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GlobalRandomGenerator.h; path = includes/GlobalRandomGenerator.h; sourceTree = "<group>"; };
+		F77AFA121B77273800688BE8 /* IncrementalAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IncrementalAlgorithm.h; path = includes/IncrementalAlgorithm.h; sourceTree = "<group>"; };
+		F77AFA131B77273800688BE8 /* Initialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Initialization.h; path = includes/Initialization.h; sourceTree = "<group>"; };
+		F77AFA141B77273800688BE8 /* MultithreadingAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultithreadingAlgorithm.h; path = includes/MultithreadingAlgorithm.h; sourceTree = "<group>"; };
+		F77AFA151B77273800688BE8 /* MultiValueChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiValueChromosome.h; path = includes/MultiValueChromosome.h; sourceTree = "<group>"; };
+		F77AFA161B77273800688BE8 /* MutationOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MutationOperations.h; path = includes/MutationOperations.h; sourceTree = "<group>"; };
+		F77AFA171B77273800688BE8 /* Observing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Observing.h; path = includes/Observing.h; sourceTree = "<group>"; };
+		F77AFA181B77273800688BE8 /* Operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = includes/Operation.h; sourceTree = "<group>"; };
+		F77AFA191B77273800688BE8 /* Platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Platform.h; path = includes/Platform.h; sourceTree = "<group>"; };
+		F77AFA1A1B77273800688BE8 /* Population.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Population.h; path = includes/Population.h; sourceTree = "<group>"; };
+		F77AFA1B1B77273800688BE8 /* PopulationOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PopulationOperations.h; path = includes/PopulationOperations.h; sourceTree = "<group>"; };
+		F77AFA1C1B77273800688BE8 /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Random.h; path = includes/Random.h; sourceTree = "<group>"; };
+		F77AFA1D1B77273800688BE8 /* ReplacementOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReplacementOperations.h; path = includes/ReplacementOperations.h; sourceTree = "<group>"; };
+		F77AFA1E1B77273800688BE8 /* RepresentationInterfaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RepresentationInterfaces.h; path = includes/RepresentationInterfaces.h; sourceTree = "<group>"; };
+		F77AFA1F1B77273800688BE8 /* ScalingOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScalingOperations.h; path = includes/ScalingOperations.h; sourceTree = "<group>"; };
+		F77AFA201B77273800688BE8 /* SelectionOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SelectionOperations.h; path = includes/SelectionOperations.h; sourceTree = "<group>"; };
+		F77AFA211B77273800688BE8 /* SimpleAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleAlgorithm.h; path = includes/SimpleAlgorithm.h; sourceTree = "<group>"; };
+		F77AFA221B77273800688BE8 /* SingleValueChromosome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SingleValueChromosome.h; path = includes/SingleValueChromosome.h; sourceTree = "<group>"; };
+		F77AFA231B77273800688BE8 /* SmartPtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SmartPtr.h; path = includes/SmartPtr.h; sourceTree = "<group>"; };
+		F77AFA241B77273800688BE8 /* SortedGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SortedGroup.h; path = includes/SortedGroup.h; sourceTree = "<group>"; };
+		F77AFA251B77273800688BE8 /* SortedGroupType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SortedGroupType.h; path = includes/SortedGroupType.h; sourceTree = "<group>"; };
+		F77AFA261B77273800688BE8 /* Statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Statistics.h; path = includes/Statistics.h; sourceTree = "<group>"; };
+		F77AFA271B77273800688BE8 /* StopCriterias.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StopCriterias.h; path = includes/StopCriterias.h; sourceTree = "<group>"; };
+		F77AFA281B77273800688BE8 /* Threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Threading.h; path = includes/Threading.h; sourceTree = "<group>"; };
+		F77AFA291B77273800688BE8 /* ValueSets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ValueSets.h; path = includes/ValueSets.h; sourceTree = "<group>"; };
+		F7F2313F1B77244E00DB22A0 /* TestApp1XCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestApp1XCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F231421B77244E00DB22A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F7F2314A1B77247200DB22A0 /* libGeneticLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGeneticLibrary.a; path = libs/libGeneticLibrary.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F2313C1B77244E00DB22A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F2314B1B77247200DB22A0 /* libGeneticLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77AF9E41B7726B800688BE8 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				F77AF9E51B7726C600688BE8 /* Algorithm.h */,
+				F77AF9E61B7726C600688BE8 /* AlgorithmOperations.h */,
+				F77AF9E71B7726C600688BE8 /* AlgorithmState.h */,
+				F77AF9E81B7726C600688BE8 /* BinaryChromosome.h */,
+				F77AF9E91B7726C600688BE8 /* CouplingOperations.h */,
+				F77AF9EA1B7726C600688BE8 /* CrossoverOperations.h */,
+				F77AF9EB1B7726C600688BE8 /* DomainChromosome.h */,
+				F77AF9EC1B7726C600688BE8 /* FitnessComparators.h */,
+				F77AF9ED1B7726C600688BE8 /* FPEqual.h */,
+				F77AFA041B77270A00688BE8 /* Initialization.h */,
+				F77AF9EE1B7726C600688BE8 /* GlobalRandomGenerator.h */,
+				F77AF9EF1B7726C600688BE8 /* IncrementalAlgorithm.h */,
+				F77AF9F01B7726C600688BE8 /* MultithreadingAlgorithm.h */,
+				F77AF9F11B7726C600688BE8 /* MultiValueChromosome.h */,
+				F77AFA051B77273800688BE8 /* Algorithm.h */,
+				F77AFA061B77273800688BE8 /* AlgorithmOperations.h */,
+				F77AFA071B77273800688BE8 /* AlgorithmState.h */,
+				F77AFA081B77273800688BE8 /* BinaryChromosome.h */,
+				F77AFA091B77273800688BE8 /* Catalogue.h */,
+				F77AFA0A1B77273800688BE8 /* Chromosome.h */,
+				F77AFA0B1B77273800688BE8 /* ChromosomeOperations.h */,
+				F77AFA0C1B77273800688BE8 /* CouplingOperations.h */,
+				F77AFA0D1B77273800688BE8 /* CrossoverOperations.h */,
+				F77AFA0E1B77273800688BE8 /* DomainChromosome.h */,
+				F77AFA0F1B77273800688BE8 /* FitnessComparators.h */,
+				F77AFA101B77273800688BE8 /* FPEqual.h */,
+				F77AFA111B77273800688BE8 /* GlobalRandomGenerator.h */,
+				F77AFA121B77273800688BE8 /* IncrementalAlgorithm.h */,
+				F77AFA131B77273800688BE8 /* Initialization.h */,
+				F77AFA141B77273800688BE8 /* MultithreadingAlgorithm.h */,
+				F77AFA151B77273800688BE8 /* MultiValueChromosome.h */,
+				F77AFA161B77273800688BE8 /* MutationOperations.h */,
+				F77AFA171B77273800688BE8 /* Observing.h */,
+				F77AFA181B77273800688BE8 /* Operation.h */,
+				F77AFA191B77273800688BE8 /* Platform.h */,
+				F77AFA1A1B77273800688BE8 /* Population.h */,
+				F77AFA1B1B77273800688BE8 /* PopulationOperations.h */,
+				F77AFA1C1B77273800688BE8 /* Random.h */,
+				F77AFA1D1B77273800688BE8 /* ReplacementOperations.h */,
+				F77AFA1E1B77273800688BE8 /* RepresentationInterfaces.h */,
+				F77AFA1F1B77273800688BE8 /* ScalingOperations.h */,
+				F77AFA201B77273800688BE8 /* SelectionOperations.h */,
+				F77AFA211B77273800688BE8 /* SimpleAlgorithm.h */,
+				F77AFA221B77273800688BE8 /* SingleValueChromosome.h */,
+				F77AFA231B77273800688BE8 /* SmartPtr.h */,
+				F77AFA241B77273800688BE8 /* SortedGroup.h */,
+				F77AFA251B77273800688BE8 /* SortedGroupType.h */,
+				F77AFA261B77273800688BE8 /* Statistics.h */,
+				F77AFA271B77273800688BE8 /* StopCriterias.h */,
+				F77AFA281B77273800688BE8 /* Threading.h */,
+				F77AFA291B77273800688BE8 /* ValueSets.h */,
+				F77AF9F21B7726C600688BE8 /* MutationOperations.h */,
+				F77AF9F31B7726C600688BE8 /* Observing.h */,
+				F77AF9F41B7726C600688BE8 /* Population.h */,
+				F77AF9F51B7726C600688BE8 /* PopulationOperations.h */,
+				F77AF9F61B7726C600688BE8 /* Random.h */,
+				F77AF9F71B7726C600688BE8 /* ReplacementOperations.h */,
+				F77AF9F81B7726C600688BE8 /* RepresentationInterfaces.h */,
+				F77AF9F91B7726C600688BE8 /* ScalingOperations.h */,
+				F77AF9FA1B7726C600688BE8 /* SelectionOperations.h */,
+				F77AF9FB1B7726C600688BE8 /* SimpleAlgorithm.h */,
+				F77AF9FC1B7726C600688BE8 /* SingleValueChromosome.h */,
+				F77AF9FD1B7726C600688BE8 /* SmartPtr.h */,
+				F77AF9FE1B7726C600688BE8 /* SortedGroup.h */,
+				F77AF9FF1B7726C600688BE8 /* SortedGroupType.h */,
+				F77AFA001B7726C600688BE8 /* Statistics.h */,
+				F77AFA011B7726C600688BE8 /* StopCriterias.h */,
+				F77AFA021B7726C600688BE8 /* ValueSets.h */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		F7F231361B77244E00DB22A0 = {
+			isa = PBXGroup;
+			children = (
+				F7F231491B77245300DB22A0 /* libs */,
+				F7F231411B77244E00DB22A0 /* TestApp1XCode */,
+				F7F231401B77244E00DB22A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F231401B77244E00DB22A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2313F1B77244E00DB22A0 /* TestApp1XCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F231411B77244E00DB22A0 /* TestApp1XCode */ = {
+			isa = PBXGroup;
+			children = (
+				F77AF9E41B7726B800688BE8 /* includes */,
+				F7F231421B77244E00DB22A0 /* main.cpp */,
+			);
+			path = TestApp1XCode;
+			sourceTree = "<group>";
+		};
+		F7F231491B77245300DB22A0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2314A1B77247200DB22A0 /* libGeneticLibrary.a */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F2313E1B77244E00DB22A0 /* TestApp1XCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F231461B77244E00DB22A0 /* Build configuration list for PBXNativeTarget "TestApp1XCode" */;
+			buildPhases = (
+				F7F2313B1B77244E00DB22A0 /* Sources */,
+				F7F2313C1B77244E00DB22A0 /* Frameworks */,
+				F7F2313D1B77244E00DB22A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp1XCode;
+			productName = TestApp1XCode;
+			productReference = F7F2313F1B77244E00DB22A0 /* TestApp1XCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F231371B77244E00DB22A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tomas Mehdi";
+				TargetAttributes = {
+					F7F2313E1B77244E00DB22A0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = F7F2313A1B77244E00DB22A0 /* Build configuration list for PBXProject "TestApp1XCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7F231361B77244E00DB22A0;
+			productRefGroup = F7F231401B77244E00DB22A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F2313E1B77244E00DB22A0 /* TestApp1XCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F2313B1B77244E00DB22A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F231431B77244E00DB22A0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7F231441B77244E00DB22A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7F231451B77244E00DB22A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7F231471B77244E00DB22A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7F231481B77244E00DB22A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F2313A1B77244E00DB22A0 /* Build configuration list for PBXProject "TestApp1XCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F231441B77244E00DB22A0 /* Debug */,
+				F7F231451B77244E00DB22A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F231461B77244E00DB22A0 /* Build configuration list for PBXNativeTarget "TestApp1XCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F231471B77244E00DB22A0 /* Debug */,
+				F7F231481B77244E00DB22A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F231371B77244E00DB22A0 /* Project object */;
+}
