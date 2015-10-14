@@ -179,6 +179,8 @@ TSP::TSP()
 	GaStopCriteria* criteria = GaStopCriteriaCatalogue::Instance().GetEntryData( "GaFitnessProgressCriteria" );
 	GaFitnessProgressCriteriaParams critParam( 1, true, GFC_LESS_THEN, GSV_BEST_FITNESS, 50000 );
 	_algorithm->SetStopCriteria( criteria, &critParam );
+
+	GaFinalize();
 }
 
 TSP::~TSP()
